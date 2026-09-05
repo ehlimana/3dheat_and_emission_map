@@ -2,8 +2,8 @@ import panel as pn
 
 import os
 os.environ["PYVISTA_OFF_SCREEN"] = "true"
+os.environ["DISPLAY"] = ""
 import pyvista as pv
-pv.OFF_SCREEN = True
 import numpy as np
 import logging
 
