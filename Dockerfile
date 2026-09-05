@@ -2,19 +2,18 @@ FROM python:3.11
 
 WORKDIR /app
 
-COPY . /app
+COPY requirements.txt .
 
-RUN apt-get update*&& apt-get install -y \
-    libgl1*mesa-glx \
+RUN apt-get update && apt-get install -y \
+    libgl1-mesa-glx \
     libglib2.0-0 \
-    *vfb \
-    && rm -rf /var/lib/apt/l*sts/*
+    xvfb \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 7860
+COPY . .
 
-CMD ["panel", "serve", "hugging_app.py", \
-     "--address", "0.0.0.0", \
-     "--port", "7860", \
-     "--allow-websocket-origin=*"]
+EXPOSE 10000
+
+CMD ["sh", "-c", "panel serve hugging_app.py --address 0.0.0.0 --port ${PORT:-10000} --allow-websocket-origin=*"]
