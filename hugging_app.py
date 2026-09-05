@@ -23,7 +23,7 @@ grid.cell_data["active"] = grid["heat"]
 
 print(grid.array_names)
 texture = pv.read_texture(
-    "data/osm_cropped.png"
+    "data/osm_cropped.jpg"
 )
 
 
