@@ -169,6 +169,7 @@ server = get_server()
 state = server.state
 state.indicator = ACTIVE_LAYER
 state.show_grid = True
+state.layers = list(LAYER_CONFIG.keys())
 import json
 
 with open(
