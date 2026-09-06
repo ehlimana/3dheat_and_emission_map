@@ -18,4 +18,4 @@ COPY . .
 
 EXPOSE 10000
 
-CMD ["sh", "-c", "panel serve hugging_app.py --address 0.0.0.0 --port ${PORT:-10000} --allow-websocket-origin=*"]
+CMD ["sh", "-c", "panel serve hugging_app_trame.py --address 0.0.0.0 --port ${PORT:-10000} --allow-websocket-origin=*"]
