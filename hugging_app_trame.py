@@ -347,4 +347,7 @@ with SinglePageLayout(server) as layout:
 
 
 if __name__ == "__main__":
-    server.start(port=int(os.environ.get("PORT", 8080)))
+    server.start(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 10000))
+    )
