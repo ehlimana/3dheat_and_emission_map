@@ -72,7 +72,7 @@ ACTIVE_LAYER = "Heat Demand"
 
 plotter = pv.Plotter(
     off_screen=True,
-    window_size=(1200, 800)
+    window_size=(800, 600)
 )
 
 plotter.set_background("white")
@@ -90,7 +90,7 @@ plotter.add_light(light)
 plotter.add_mesh(
     terrain,
     texture=texture,
-    smooth_shading=True,
+        smooth_shading=False,
     ambient=0.35,
     diffuse=0.85,
     specular=0.15
@@ -258,9 +258,13 @@ plotter.add_camera_orientation_widget()
 # VTK PANE
 # ==================================================
 
-vtk_pane = pn.pane.VTK(
-    plotter.ren_win,
-    sizing_mode="stretch_both"
+#vtk_pane = pn.pane.VTK(
+#    plotter.ren_win,
+ #   sizing_mode="stretch_both"
+#)
+
+vtk_pane = pn.pane.Markdown(
+    "# VTK test"
 )
 
 # ==================================================
