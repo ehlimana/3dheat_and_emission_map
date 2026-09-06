@@ -28,7 +28,7 @@ grid.cell_data["active"] = grid["heat"]
 
 print(grid.array_names)
 texture = pv.read_texture(
-    "data/osm_cropped.png"
+    "data/osm_cropped.jpg"
 )
 
 
@@ -347,4 +347,4 @@ with SinglePageLayout(server) as layout:
 
 
 if __name__ == "__main__":
-    server.start()
+    server.start(port=int(os.environ.get("PORT", 8080)))
