@@ -3,7 +3,7 @@ from trame.app import get_server
 from trame.ui.vuetify3 import SinglePageLayout
 from trame.widgets import vuetify3 as vuetify
 from pyvista.trame.ui import plotter_ui
-
+import pandas as pd
 
 import numpy as np
 import logging
