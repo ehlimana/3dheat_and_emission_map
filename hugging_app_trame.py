@@ -25,57 +25,6 @@ grid = pv.read(
 )
 
 grid_df=pd.read_csv("data/heat_demand.csv")
-def build_opcina_tree(df):
-
-    result = []
-
-    grouped = (
-        df.groupby(
-            ["OPCINA", "Mjesna_zaj"],
-            as_index=False
-        )
-        .agg(
-            {
-                'total_heat_demand_MWh_realni_2021_schedule': "sum",
-                'CO2_emissions_realni_2021_schedule': "sum",
-                'NOx_emissions_realni_2021_schedule': "sum",
-                'SO2_emissions_realni_2021_schedule': "sum",
-                'PM2.5_emissions_realni_2021_schedule': "sum",
-
-            }
-        )
-    )
-
-    for opcina, g in grouped.groupby("OPCINA"):
-
-        children = []
-
-        for _, row in g.iterrows():
-
-            children.append(
-                {
-                    "mz": row["Mjesna_zaj"],
-                    "heat": float(row['total_heat_demand_MWh_realni_2021_schedule']),
-                    "co2": float(row['CO2_emissions_realni_2021_schedule']),
-                    "nox": float(row['NOx_emissions_realni_2021_schedule']),
-                    "sox": float(row['SO2_emissions_realni_2021_schedule']),
-                    "pm25": float(row[ 'PM2.5_emissions_realni_2021_schedule']),
-                }
-            )
-
-        result.append(
-            {
-                "opcina": opcina,
-                "heat": float(g['total_heat_demand_MWh_realni_2021_schedule'].sum()),
-                "co2": float(g['CO2_emissions_realni_2021_schedule'].sum()),
-                "nox": float(g['NOx_emissions_realni_2021_schedule'].sum()),
-                "sox": float(g['SO2_emissions_realni_2021_schedule'].sum()),
-                "pm25": float(g['PM2.5_emissions_realni_2021_schedule'].sum()),
-                "children": children,
-            }
-        )
-
-    return result
 
 grid.cell_data["active"] = grid["heat"]
 
@@ -220,76 +169,23 @@ server = get_server()
 state = server.state
 state.indicator = ACTIVE_LAYER
 state.show_grid = True
+import json
 
-state.opcina_rows = build_opcina_tree(grid_df)
-def build_opcina_html(opcina_rows):
+with open(
+    "data/opcina_summary.json",
+    "r",
+    encoding="utf-8"
+) as f:
 
-    html = ""
+    state.opcina_rows = json.load(f)
 
-    for opcina in opcina_rows:
+with open(
+    "data/opcina_html.txt",
+    "r",
+    encoding="utf-8"
+) as f:
 
-        html += f"""
-        <details>
-            <summary>
-                <b>{opcina['opcina']}</b>
-                | Heat: {opcina['heat']:,.3f}
-                | CO₂: {opcina['co2']:,.4f}
-                | NOx: {opcina['nox']:,.3f}
-                | SO₂: {opcina['sox']:,.3f}
-                | PM2.5: {opcina['pm25']:,.3f}
-            </summary>
-
-            <table
-                style="
-                    width:100%;
-                    border-collapse:collapse;
-                    margin-top:10px;
-                "
-            >
-                <thead>
-                    <tr>
-                        <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-        """
-
-        for mz in opcina["children"]:
-
-            html += f"""
-                <tr>
-                    <td>{mz['mz']}</td>
-                    <td>{mz['heat']:,.3f}</td>
-                    <td>{mz['co2']:,.4f}</td>
-                    <td>{mz['nox']:,.4f}</td>
-                    <td>{mz['sox']:,.4f}</td>
-                    <td>{mz['pm25']:,.4f}</td>
-                </tr>
-            """
-
-        html += """
-                </tbody>
-            </table>
-        </details>
-        <br>
-        """
-
-    return html
-state.opcina_html = build_opcina_html(
-    state.opcina_rows
-)
-
-
-
-
-
-
+    state.opcina_html = f.read()
 state.colorbar_html = ""
 def update_colorbar(layer, unit, vmin, vmax):
 
