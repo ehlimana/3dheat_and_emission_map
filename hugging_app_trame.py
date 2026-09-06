@@ -24,6 +24,59 @@ grid = pv.read(
     "data/grid_mesh.vtp"
 )
 
+grid_df=pd.read_csv("data/heat_demand.csv")
+def build_opcina_tree(df):
+
+    result = []
+
+    grouped = (
+        df.groupby(
+            ["OPCINA", "Mjesna_zaj"],
+            as_index=False
+        )
+        .agg(
+            {
+                'total_heat_demand_MWh_realni_2021_schedule': "sum",
+                'CO2_emissions_realni_2021_schedule': "sum",
+                'NOx_emissions_realni_2021_schedule': "sum",
+                'SO2_emissions_realni_2021_schedule': "sum",
+                'PM2.5_emissions_realni_2021_schedule': "sum",
+
+            }
+        )
+    )
+
+    for opcina, g in grouped.groupby("OPCINA"):
+
+        children = []
+
+        for _, row in g.iterrows():
+
+            children.append(
+                {
+                    "mz": row["Mjesna_zaj"],
+                    "heat": float(row['total_heat_demand_MWh_realni_2021_schedule']),
+                    "co2": float(row['CO2_emissions_realni_2021_schedule']),
+                    "nox": float(row['NOx_emissions_realni_2021_schedule']),
+                    "sox": float(row['SO2_emissions_realni_2021_schedule']),
+                    "pm25": float(row[ 'PM2.5_emissions_realni_2021_schedule']),
+                }
+            )
+
+        result.append(
+            {
+                "opcina": opcina,
+                "heat": float(g['total_heat_demand_MWh_realni_2021_schedule'].sum()),
+                "co2": float(g['CO2_emissions_realni_2021_schedule'].sum()),
+                "nox": float(g['NOx_emissions_realni_2021_schedule'].sum()),
+                "sox": float(g['SO2_emissions_realni_2021_schedule'].sum()),
+                "pm25": float(g['PM2.5_emissions_realni_2021_schedule'].sum()),
+                "children": children,
+            }
+        )
+
+    return result
+
 grid.cell_data["active"] = grid["heat"]
 
 print(grid.array_names)
@@ -168,6 +221,75 @@ state = server.state
 state.indicator = ACTIVE_LAYER
 state.show_grid = True
 
+state.opcina_rows = build_opcina_tree(grid_df)
+def build_opcina_html(opcina_rows):
+
+    html = ""
+
+    for opcina in opcina_rows:
+
+        html += f"""
+        <details>
+            <summary>
+                <b>{opcina['opcina']}</b>
+                | Heat: {opcina['heat']:,.3f}
+                | CO₂: {opcina['co2']:,.4f}
+                | NOx: {opcina['nox']:,.3f}
+                | SO₂: {opcina['sox']:,.3f}
+                | PM2.5: {opcina['pm25']:,.3f}
+            </summary>
+
+            <table
+                style="
+                    width:100%;
+                    border-collapse:collapse;
+                    margin-top:10px;
+                "
+            >
+                <thead>
+                    <tr>
+                        <th>Mjesna zajednica</th>
+                        <th>Heat</th>
+                        <th>CO₂</th>
+                        <th>NOx</th>
+                        <th>SO₂</th>
+                        <th>PM2.5</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+        """
+
+        for mz in opcina["children"]:
+
+            html += f"""
+                <tr>
+                    <td>{mz['mz']}</td>
+                    <td>{mz['heat']:,.3f}</td>
+                    <td>{mz['co2']:,.4f}</td>
+                    <td>{mz['nox']:,.4f}</td>
+                    <td>{mz['sox']:,.4f}</td>
+                    <td>{mz['pm25']:,.4f}</td>
+                </tr>
+            """
+
+        html += """
+                </tbody>
+            </table>
+        </details>
+        <br>
+        """
+
+    return html
+state.opcina_html = build_opcina_html(
+    state.opcina_rows
+)
+
+
+
+
+
+
 state.colorbar_html = ""
 def update_colorbar(layer, unit, vmin, vmax):
 
@@ -288,23 +410,6 @@ def update_indicator(indicator):
 def indicator_changed(indicator, **kwargs):
     update_indicator(indicator)    
 
-
-# ==================================================
-# RESET CAMERA
-# ==================================================
-
-def reset_camera():
-
-    plotter.view_isometric()
-    plotter.reset_camera()
-
-    plotter.camera.zoom(2.0)
-    plotter.camera.view_angle = 35
-    plotter.render()
-    view.update()
-
-
-
 # ==================================================
 # LAYOUT
 # ==================================================
@@ -314,36 +419,66 @@ with SinglePageLayout(server) as layout:
     layout.title.set_text(
         "3D mapa toplotnih potreba i emisija KS"
     )
-    state.layers = list(LAYER_CONFIG.keys())
 
     with layout.content:
 
         with vuetify.VContainer(
             fluid=True,
-            classes="pa-0 fill-height"
+            classes="pa-2"
         ):
 
-            with vuetify.VRow(
-                classes="fill-height ma-0"
+            # ==================================
+            # RED 1 - MAPA
+            # ==================================
+
+            with vuetify.VContainer(
+                fluid=True,
+                style="""
+                    height:800px;
+                    min-height:800px;
+                    padding:0;
+                """
             ):
 
-                with vuetify.VCol(
-                    cols="9"
-                ):
-                    view = plotter_ui(plotter)
+                view = plotter_ui(plotter)
 
-                with vuetify.VCol(
-                    cols="3"
-                ):
+            vuetify.VDivider(classes="my-4")
+
+            # ==================================
+            # RED 2 - DROPDOWN + COLORBAR
+            # ==================================
+
+            with vuetify.VRow():
+
+                with vuetify.VCol(cols="3"):
+
                     vuetify.VSelect(
-                        v_model=("indicator", "Heat Demand"),
+                        v_model=("indicator", ACTIVE_LAYER),
                         items=("layers",),
+                        label="Pokazatelj",
                     )
+
+                with vuetify.VCol(cols="9"):
 
                     vuetify.VContainer(
                         v_html=("colorbar_html",)
                     )
 
+            vuetify.VDivider(classes="my-4")
+
+            # ==================================
+            # RED 3 - OPĆINE
+            # ==================================
+
+            vuetify.VCardTitle(
+                children=[
+                    "Pregled po općinama i mjesnim zajednicama"
+                ]
+            )
+
+            vuetify.VContainer(
+                v_html=("opcina_html",)
+            )
 
 
 if __name__ == "__main__":
