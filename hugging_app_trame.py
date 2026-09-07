@@ -59,7 +59,7 @@ LAYER_CONFIG = {
         "unit": "ktons/year",
         "cmap": "Spectral"
     },
-    "SO₂": {
+    "SOx": {
         "column": "sox",
         "unit": "ktons/year",
         "cmap": "Spectral"
@@ -247,11 +247,11 @@ def update_colorbar(layer, unit, vmin, vmax):
                 margin-left:10px;
                 font-size:12px;
             ">
-                <span>{vmax:,.2f}</span>
-                <span>{(vmax*0.75 + vmin*0.25):,.2f}</span>
-                <span>{(vmax+vmin)/2:,.2f}</span>
-                <span>{(vmax*0.25 + vmin*0.75):,.2f}</span>
-                <span>{vmin:,.2f}</span>
+                <span>{vmax:,.4f}</span>
+                <span>{(vmax*0.75 + vmin*0.25):,.4f}</span>
+                <span>{(vmax+vmin)/2:,.4f}</span>
+                <span>{(vmax*0.25 + vmin*0.75):,.4f}</span>
+                <span>{vmin:,.4f}</span>
             </div>
 
         </div>
@@ -314,16 +314,14 @@ def indicator_changed(indicator, **kwargs):
 with SinglePageLayout(server) as layout:
 
     layout.title.set_text(
-        "3D mapa toplotnih potreba i emisija KS"
+        "3D mapa toplotnih potreba i emisija KS - Realni scenarij za 2021. sa rasporedom smanjenog grijanja"
     )
 
     with layout.content:
-
         with vuetify.VContainer(
             fluid=True,
             classes="pa-2"
         ):
-
             # ==================================
             # RED 1 - MAPA
             # ==================================
@@ -346,9 +344,7 @@ with SinglePageLayout(server) as layout:
             # ==================================
 
             with vuetify.VRow():
-
                 with vuetify.VCol(cols="3"):
-
                     vuetify.VSelect(
                         v_model=("indicator", ACTIVE_LAYER),
                         items=("layers",),
@@ -356,7 +352,6 @@ with SinglePageLayout(server) as layout:
                     )
 
                 with vuetify.VCol(cols="9"):
-
                     vuetify.VContainer(
                         v_html=("colorbar_html",)
                     )
