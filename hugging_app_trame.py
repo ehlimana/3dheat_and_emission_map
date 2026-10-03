@@ -43,9 +43,9 @@ print("Grid:", grid.n_points, grid.n_cells)
 # ==================================================
 
 LAYER_CONFIG = {
-    "Heat Demand": {
+    "Specific Heat Demand": {
         "column": "heat",
-        "unit": "MWh/year",
+        "unit": "kWh/m2/year",
         "cmap": "Spectral"
     },
 
@@ -71,7 +71,7 @@ LAYER_CONFIG = {
     }
 }
 
-ACTIVE_LAYER = "Heat Demand"
+ACTIVE_LAYER ="Specific Heat Demand"
 
 # ==================================================
 # PLOTTER
@@ -172,13 +172,13 @@ state.show_grid = True
 state.layers = list(LAYER_CONFIG.keys())
 import json
 
-with open(
-    "data/opcina_summary.json",
-    "r",
-    encoding="utf-8"
-) as f:
+#with open(
+#    "data/opcina_summary.json",
+#    "r",
+#    encoding="utf-8"
+#) as f:
 
-    state.opcina_rows = json.load(f)
+#    state.opcina_rows = json.load(f)
 
 with open(
     "data/opcina_html.txt",
@@ -275,7 +275,7 @@ update_colorbar(
     vmax
 )
 
-state.indicator = "Heat Demand"
+state.indicator = "Specific Heat Demand"
 
 # ==================================================
 # UPDATE LAYER
