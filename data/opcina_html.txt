@@ -2,11 +2,12 @@
         <details>
             <summary>
                 <b>CENTAR</b>
-                | Heat: 728,305.034
-                | CO₂: 240.0648
-                | NOx: 0.358
-                | SO₂: 0.560
-                | PM2.5: 0.399
+                | Specific Heat Demand: 0.1 kWh/m²·yr
+                | Heat Demand: 727,977 MWh/yr
+                | CO₂: 239.949 kton/yr
+                | NOx: 0.358 kton/yr
+                | SO₂: 0.560 kton/yr
+                | PM2.5: 0.400 kton/yr
             </summary>
 
             <table
@@ -19,11 +20,12 @@
                 <thead>
                     <tr>
                         <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
+                        <th>Specific Heat Demand<br>[kWh/m²·yr]</th>
+                        <th>Heat Demand<br>[MWh/yr]</th>
+                        <th>CO₂<br>[kton/yr]</th>
+                        <th>NOx<br>[kton/yr]</th>
+                        <th>SO₂<br>[kton/yr]</th>
+                        <th>PM2.5<br>[kton/yr]</th>
                     </tr>
                 </thead>
 
@@ -31,137 +33,152 @@
         
                 <tr>
                     <td>Bardakčije</td>
-                    <td>24,598.788</td>
-                    <td>6.7432</td>
-                    <td>0.0121</td>
-                    <td>0.0229</td>
-                    <td>0.0266</td>
+                    <td>0.1</td>
+                    <td>21,467.810</td>
+                    <td>5.5757</td>
+                    <td>0.0106</td>
+                    <td>0.0203</td>
+                    <td>0.0263</td>
                 </tr>
             
                 <tr>
                     <td>Betanija Šip</td>
-                    <td>54,069.255</td>
-                    <td>13.1885</td>
-                    <td>0.0264</td>
-                    <td>0.0531</td>
-                    <td>0.0722</td>
+                    <td>0.1</td>
+                    <td>51,580.180</td>
+                    <td>12.0538</td>
+                    <td>0.0252</td>
+                    <td>0.0529</td>
+                    <td>0.0738</td>
                 </tr>
             
                 <tr>
                     <td>Breka Koševo II</td>
-                    <td>51,182.230</td>
-                    <td>15.4584</td>
-                    <td>0.0217</td>
-                    <td>0.0213</td>
-                    <td>0.0187</td>
+                    <td>0.2</td>
+                    <td>56,480.380</td>
+                    <td>17.7858</td>
+                    <td>0.0246</td>
+                    <td>0.0259</td>
+                    <td>0.0181</td>
                 </tr>
             
                 <tr>
                     <td>Ciglane Gorica</td>
-                    <td>26,492.238</td>
-                    <td>8.2832</td>
+                    <td>0.1</td>
+                    <td>26,231.310</td>
+                    <td>8.4411</td>
                     <td>0.0116</td>
-                    <td>0.0150</td>
-                    <td>0.0098</td>
+                    <td>0.0142</td>
+                    <td>0.0080</td>
                 </tr>
             
                 <tr>
                     <td>Donji Velešići</td>
-                    <td>6,167.897</td>
-                    <td>2.1852</td>
-                    <td>0.0032</td>
+                    <td>0.2</td>
+                    <td>10,494.320</td>
+                    <td>3.4506</td>
                     <td>0.0052</td>
-                    <td>0.0029</td>
+                    <td>0.0086</td>
+                    <td>0.0061</td>
                 </tr>
             
                 <tr>
                     <td>Džidžikovac Košev</td>
-                    <td>27,420.796</td>
-                    <td>10.4712</td>
-                    <td>0.0136</td>
-                    <td>0.0170</td>
-                    <td>0.0020</td>
+                    <td>0.1</td>
+                    <td>27,746.960</td>
+                    <td>10.5794</td>
+                    <td>0.0137</td>
+                    <td>0.0169</td>
+                    <td>0.0021</td>
                 </tr>
             
                 <tr>
                     <td>Hrastovi Mrkovići</td>
-                    <td>46,202.319</td>
-                    <td>9.2552</td>
-                    <td>0.0216</td>
-                    <td>0.0466</td>
-                    <td>0.0735</td>
+                    <td>0.1</td>
+                    <td>46,766.890</td>
+                    <td>9.5766</td>
+                    <td>0.0217</td>
+                    <td>0.0449</td>
+                    <td>0.0715</td>
                 </tr>
             
                 <tr>
                     <td>Koševsko Brdo</td>
-                    <td>39,133.786</td>
-                    <td>13.0962</td>
-                    <td>0.0190</td>
-                    <td>0.0269</td>
+                    <td>0.1</td>
+                    <td>37,171.830</td>
+                    <td>11.9215</td>
                     <td>0.0177</td>
+                    <td>0.0251</td>
+                    <td>0.0196</td>
                 </tr>
             
                 <tr>
                     <td>M Dvor Crni Vrh</td>
-                    <td>104,444.068</td>
-                    <td>40.4313</td>
-                    <td>0.0524</td>
-                    <td>0.0677</td>
-                    <td>0.0072</td>
+                    <td>0.1</td>
+                    <td>103,475.020</td>
+                    <td>40.3169</td>
+                    <td>0.0522</td>
+                    <td>0.0688</td>
+                    <td>0.0067</td>
                 </tr>
             
                 <tr>
                     <td>Mejtaš Bjelave</td>
-                    <td>40,395.722</td>
-                    <td>12.1683</td>
-                    <td>0.0205</td>
-                    <td>0.0396</td>
-                    <td>0.0378</td>
+                    <td>0.1</td>
+                    <td>38,379.050</td>
+                    <td>11.6490</td>
+                    <td>0.0197</td>
+                    <td>0.0397</td>
+                    <td>0.0365</td>
                 </tr>
             
                 <tr>
                     <td>P Dolina Nahorevo</td>
-                    <td>41,629.255</td>
-                    <td>9.1757</td>
-                    <td>0.0201</td>
-                    <td>0.0421</td>
-                    <td>0.0631</td>
+                    <td>0.2</td>
+                    <td>41,913.090</td>
+                    <td>9.1046</td>
+                    <td>0.0202</td>
+                    <td>0.0416</td>
+                    <td>0.0644</td>
                 </tr>
             
                 <tr>
                     <td>Park Višnjik</td>
-                    <td>135,003.221</td>
-                    <td>54.7821</td>
-                    <td>0.0705</td>
-                    <td>0.0976</td>
-                    <td>0.0034</td>
+                    <td>0.3</td>
+                    <td>131,149.600</td>
+                    <td>53.1066</td>
+                    <td>0.0685</td>
+                    <td>0.0946</td>
+                    <td>0.0043</td>
                 </tr>
             
                 <tr>
                     <td>Skenderija Podtekija</td>
-                    <td>50,753.086</td>
-                    <td>17.5998</td>
-                    <td>0.0251</td>
-                    <td>0.0381</td>
-                    <td>0.0209</td>
+                    <td>0.1</td>
+                    <td>47,338.170</td>
+                    <td>16.8279</td>
+                    <td>0.0234</td>
+                    <td>0.0350</td>
+                    <td>0.0154</td>
                 </tr>
             
                 <tr>
                     <td>Soukbunar</td>
-                    <td>23,600.824</td>
-                    <td>4.5830</td>
-                    <td>0.0113</td>
-                    <td>0.0292</td>
-                    <td>0.0414</td>
+                    <td>0.1</td>
+                    <td>24,969.680</td>
+                    <td>4.7538</td>
+                    <td>0.0120</td>
+                    <td>0.0299</td>
+                    <td>0.0450</td>
                 </tr>
             
                 <tr>
                     <td>Trg Osl Centar</td>
-                    <td>57,211.547</td>
-                    <td>22.6437</td>
-                    <td>0.0290</td>
-                    <td>0.0376</td>
-                    <td>0.0013</td>
+                    <td>0.1</td>
+                    <td>62,812.830</td>
+                    <td>24.8053</td>
+                    <td>0.0319</td>
+                    <td>0.0414</td>
+                    <td>0.0020</td>
                 </tr>
             
                 </tbody>
@@ -172,11 +189,12 @@
         <details>
             <summary>
                 <b>HADŽIĆI</b>
-                | Heat: 268,954.806
-                | CO₂: 66.1511
-                | NOx: 0.129
-                | SO₂: 0.249
-                | PM2.5: 0.338
+                | Specific Heat Demand: 0.1 kWh/m²·yr
+                | Heat Demand: 270,150 MWh/yr
+                | CO₂: 66.533 kton/yr
+                | NOx: 0.130 kton/yr
+                | SO₂: 0.250 kton/yr
+                | PM2.5: 0.339 kton/yr
             </summary>
 
             <table
@@ -189,11 +207,12 @@
                 <thead>
                     <tr>
                         <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
+                        <th>Specific Heat Demand<br>[kWh/m²·yr]</th>
+                        <th>Heat Demand<br>[MWh/yr]</th>
+                        <th>CO₂<br>[kton/yr]</th>
+                        <th>NOx<br>[kton/yr]</th>
+                        <th>SO₂<br>[kton/yr]</th>
+                        <th>PM2.5<br>[kton/yr]</th>
                     </tr>
                 </thead>
 
@@ -201,15 +220,17 @@
         
                 <tr>
                     <td>Binježevo</td>
-                    <td>73,783.134</td>
-                    <td>19.4244</td>
-                    <td>0.0365</td>
-                    <td>0.0702</td>
-                    <td>0.0879</td>
+                    <td>0.1</td>
+                    <td>75,410.630</td>
+                    <td>20.0034</td>
+                    <td>0.0373</td>
+                    <td>0.0714</td>
+                    <td>0.0886</td>
                 </tr>
             
                 <tr>
                     <td>Budmolići</td>
+                    <td>0.2</td>
                     <td>4,148.890</td>
                     <td>0.7786</td>
                     <td>0.0020</td>
@@ -219,62 +240,69 @@
             
                 <tr>
                     <td>Donji Hadžići</td>
-                    <td>11,591.687</td>
-                    <td>2.1131</td>
-                    <td>0.0054</td>
-                    <td>0.0110</td>
-                    <td>0.0204</td>
+                    <td>0.1</td>
+                    <td>11,992.630</td>
+                    <td>2.2030</td>
+                    <td>0.0056</td>
+                    <td>0.0116</td>
+                    <td>0.0211</td>
                 </tr>
             
                 <tr>
                     <td>Drozgometva</td>
-                    <td>20,881.334</td>
-                    <td>3.7611</td>
-                    <td>0.0097</td>
-                    <td>0.0230</td>
-                    <td>0.0372</td>
+                    <td>0.2</td>
+                    <td>20,928.990</td>
+                    <td>3.8918</td>
+                    <td>0.0098</td>
+                    <td>0.0232</td>
+                    <td>0.0365</td>
                 </tr>
             
                 <tr>
                     <td>Duranovići</td>
-                    <td>3,150.678</td>
-                    <td>0.6903</td>
+                    <td>0.2</td>
+                    <td>3,172.370</td>
+                    <td>0.6924</td>
                     <td>0.0016</td>
                     <td>0.0044</td>
-                    <td>0.0055</td>
+                    <td>0.0056</td>
                 </tr>
             
                 <tr>
                     <td>Hadžići</td>
-                    <td>71,476.804</td>
-                    <td>20.7550</td>
-                    <td>0.0342</td>
-                    <td>0.0548</td>
-                    <td>0.0587</td>
+                    <td>0.1</td>
+                    <td>70,874.120</td>
+                    <td>20.5609</td>
+                    <td>0.0339</td>
+                    <td>0.0547</td>
+                    <td>0.0584</td>
                 </tr>
             
                 <tr>
                     <td>Lokve</td>
-                    <td>11,441.646</td>
-                    <td>2.3477</td>
-                    <td>0.0054</td>
-                    <td>0.0121</td>
-                    <td>0.0185</td>
+                    <td>0.2</td>
+                    <td>11,352.290</td>
+                    <td>2.3642</td>
+                    <td>0.0055</td>
+                    <td>0.0123</td>
+                    <td>0.0184</td>
                 </tr>
             
                 <tr>
                     <td>Luke</td>
-                    <td>3,733.645</td>
-                    <td>0.6772</td>
+                    <td>0.2</td>
+                    <td>3,591.500</td>
+                    <td>0.6665</td>
                     <td>0.0017</td>
                     <td>0.0040</td>
-                    <td>0.0066</td>
+                    <td>0.0062</td>
                 </tr>
             
                 <tr>
                     <td>Mokrine</td>
-                    <td>2,684.631</td>
-                    <td>1.0916</td>
+                    <td>0.2</td>
+                    <td>2,623.690</td>
+                    <td>1.0748</td>
                     <td>0.0014</td>
                     <td>0.0022</td>
                     <td>0.0002</td>
@@ -282,8 +310,9 @@
             
                 <tr>
                     <td>Osenik</td>
-                    <td>6,059.846</td>
-                    <td>0.9582</td>
+                    <td>0.2</td>
+                    <td>6,034.510</td>
+                    <td>0.9565</td>
                     <td>0.0027</td>
                     <td>0.0058</td>
                     <td>0.0112</td>
@@ -291,47 +320,52 @@
             
                 <tr>
                     <td>Pazarić</td>
-                    <td>9,831.081</td>
-                    <td>1.9856</td>
-                    <td>0.0044</td>
-                    <td>0.0079</td>
-                    <td>0.0143</td>
+                    <td>0.1</td>
+                    <td>10,380.800</td>
+                    <td>2.1415</td>
+                    <td>0.0047</td>
+                    <td>0.0087</td>
+                    <td>0.0148</td>
                 </tr>
             
                 <tr>
                     <td>Raštelica</td>
-                    <td>2,236.811</td>
-                    <td>0.5122</td>
-                    <td>0.0012</td>
-                    <td>0.0034</td>
-                    <td>0.0040</td>
+                    <td>0.2</td>
+                    <td>2,113.100</td>
+                    <td>0.4946</td>
+                    <td>0.0011</td>
+                    <td>0.0033</td>
+                    <td>0.0037</td>
                 </tr>
             
                 <tr>
                     <td>Resnik</td>
-                    <td>1,612.947</td>
-                    <td>0.3634</td>
+                    <td>0.1</td>
+                    <td>1,261.580</td>
+                    <td>0.2246</td>
+                    <td>0.0006</td>
                     <td>0.0008</td>
-                    <td>0.0016</td>
-                    <td>0.0027</td>
+                    <td>0.0023</td>
                 </tr>
             
                 <tr>
                     <td>Tarčin</td>
-                    <td>16,677.866</td>
-                    <td>3.8707</td>
-                    <td>0.0079</td>
+                    <td>0.2</td>
+                    <td>16,914.680</td>
+                    <td>3.8965</td>
+                    <td>0.0080</td>
                     <td>0.0158</td>
-                    <td>0.0226</td>
+                    <td>0.0232</td>
                 </tr>
             
                 <tr>
                     <td>Žunovnica</td>
-                    <td>29,643.806</td>
-                    <td>6.8219</td>
-                    <td>0.0142</td>
-                    <td>0.0284</td>
-                    <td>0.0411</td>
+                    <td>0.1</td>
+                    <td>29,350.090</td>
+                    <td>6.5835</td>
+                    <td>0.0139</td>
+                    <td>0.0276</td>
+                    <td>0.0417</td>
                 </tr>
             
                 </tbody>
@@ -342,11 +376,12 @@
         <details>
             <summary>
                 <b>ILIDŽA</b>
-                | Heat: 877,797.016
-                | CO₂: 235.6288
-                | NOx: 0.426
-                | SO₂: 0.803
-                | PM2.5: 0.948
+                | Specific Heat Demand: 0.1 kWh/m²·yr
+                | Heat Demand: 877,779 MWh/yr
+                | CO₂: 235.933 kton/yr
+                | NOx: 0.426 kton/yr
+                | SO₂: 0.802 kton/yr
+                | PM2.5: 0.945 kton/yr
             </summary>
 
             <table
@@ -359,11 +394,12 @@
                 <thead>
                     <tr>
                         <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
+                        <th>Specific Heat Demand<br>[kWh/m²·yr]</th>
+                        <th>Heat Demand<br>[MWh/yr]</th>
+                        <th>CO₂<br>[kton/yr]</th>
+                        <th>NOx<br>[kton/yr]</th>
+                        <th>SO₂<br>[kton/yr]</th>
+                        <th>PM2.5<br>[kton/yr]</th>
                     </tr>
                 </thead>
 
@@ -371,71 +407,79 @@
         
                 <tr>
                     <td>Blažuj</td>
-                    <td>134,955.667</td>
-                    <td>39.6959</td>
-                    <td>0.0675</td>
-                    <td>0.1239</td>
-                    <td>0.1264</td>
+                    <td>0.1</td>
+                    <td>135,131.990</td>
+                    <td>39.6716</td>
+                    <td>0.0676</td>
+                    <td>0.1232</td>
+                    <td>0.1267</td>
                 </tr>
             
                 <tr>
                     <td>Butmir</td>
-                    <td>79,708.883</td>
-                    <td>22.6264</td>
-                    <td>0.0385</td>
-                    <td>0.0657</td>
-                    <td>0.0731</td>
+                    <td>0.1</td>
+                    <td>80,832.670</td>
+                    <td>23.1698</td>
+                    <td>0.0396</td>
+                    <td>0.0690</td>
+                    <td>0.0755</td>
                 </tr>
             
                 <tr>
                     <td>Grlica</td>
-                    <td>326.312</td>
-                    <td>0.1325</td>
-                    <td>0.0002</td>
-                    <td>0.0002</td>
+                    <td>0.2</td>
+                    <td>142.770</td>
+                    <td>0.0569</td>
+                    <td>0.0001</td>
+                    <td>0.0001</td>
                     <td>0.0000</td>
                 </tr>
             
                 <tr>
                     <td>Hrasnica I</td>
-                    <td>60,385.112</td>
-                    <td>20.4598</td>
-                    <td>0.0306</td>
-                    <td>0.0498</td>
-                    <td>0.0330</td>
+                    <td>0.1</td>
+                    <td>59,976.820</td>
+                    <td>20.2298</td>
+                    <td>0.0303</td>
+                    <td>0.0491</td>
+                    <td>0.0331</td>
                 </tr>
             
                 <tr>
                     <td>Hrasnica II</td>
-                    <td>45,736.809</td>
-                    <td>10.3338</td>
+                    <td>0.1</td>
+                    <td>45,283.780</td>
+                    <td>10.5408</td>
                     <td>0.0223</td>
-                    <td>0.0490</td>
-                    <td>0.0688</td>
+                    <td>0.0497</td>
+                    <td>0.0665</td>
                 </tr>
             
                 <tr>
                     <td>Ilidža Centar</td>
-                    <td>41,078.462</td>
-                    <td>13.4717</td>
-                    <td>0.0187</td>
-                    <td>0.0235</td>
-                    <td>0.0133</td>
+                    <td>0.1</td>
+                    <td>43,542.880</td>
+                    <td>13.9664</td>
+                    <td>0.0193</td>
+                    <td>0.0226</td>
+                    <td>0.0135</td>
                 </tr>
             
                 <tr>
                     <td>Kotorac</td>
-                    <td>14,560.952</td>
-                    <td>4.2997</td>
-                    <td>0.0073</td>
-                    <td>0.0133</td>
-                    <td>0.0136</td>
+                    <td>0.1</td>
+                    <td>13,622.360</td>
+                    <td>3.9789</td>
+                    <td>0.0069</td>
+                    <td>0.0138</td>
+                    <td>0.0137</td>
                 </tr>
             
                 <tr>
                     <td>Krupac</td>
-                    <td>356.440</td>
-                    <td>0.1031</td>
+                    <td>0.2</td>
+                    <td>337.570</td>
+                    <td>0.1029</td>
                     <td>0.0002</td>
                     <td>0.0004</td>
                     <td>0.0004</td>
@@ -443,80 +487,89 @@
             
                 <tr>
                     <td>Lužani</td>
-                    <td>43,711.268</td>
-                    <td>13.1622</td>
-                    <td>0.0200</td>
-                    <td>0.0283</td>
-                    <td>0.0256</td>
+                    <td>0.1</td>
+                    <td>42,746.440</td>
+                    <td>12.4308</td>
+                    <td>0.0193</td>
+                    <td>0.0268</td>
+                    <td>0.0274</td>
                 </tr>
             
                 <tr>
                     <td>Osijek</td>
-                    <td>69,332.198</td>
-                    <td>12.8696</td>
-                    <td>0.0326</td>
-                    <td>0.0754</td>
-                    <td>0.1216</td>
+                    <td>0.1</td>
+                    <td>68,697.650</td>
+                    <td>12.9905</td>
+                    <td>0.0324</td>
+                    <td>0.0755</td>
+                    <td>0.1190</td>
                 </tr>
             
                 <tr>
                     <td>Otes</td>
-                    <td>29,369.732</td>
-                    <td>6.8061</td>
-                    <td>0.0140</td>
-                    <td>0.0280</td>
-                    <td>0.0400</td>
+                    <td>0.1</td>
+                    <td>29,911.430</td>
+                    <td>6.9771</td>
+                    <td>0.0144</td>
+                    <td>0.0294</td>
+                    <td>0.0413</td>
                 </tr>
             
                 <tr>
                     <td>Rakovica</td>
-                    <td>63,419.045</td>
-                    <td>11.9290</td>
-                    <td>0.0297</td>
-                    <td>0.0661</td>
-                    <td>0.1090</td>
+                    <td>0.1</td>
+                    <td>62,682.260</td>
+                    <td>11.7864</td>
+                    <td>0.0294</td>
+                    <td>0.0660</td>
+                    <td>0.1081</td>
                 </tr>
             
                 <tr>
                     <td>Sokolovići</td>
-                    <td>48,787.185</td>
-                    <td>9.2778</td>
-                    <td>0.0234</td>
-                    <td>0.0545</td>
-                    <td>0.0871</td>
+                    <td>0.1</td>
+                    <td>48,208.770</td>
+                    <td>9.1214</td>
+                    <td>0.0231</td>
+                    <td>0.0531</td>
+                    <td>0.0861</td>
                 </tr>
             
                 <tr>
                     <td>Stup I</td>
-                    <td>130,389.882</td>
-                    <td>39.6693</td>
-                    <td>0.0651</td>
-                    <td>0.1147</td>
-                    <td>0.1080</td>
+                    <td>0.1</td>
+                    <td>129,855.860</td>
+                    <td>39.4426</td>
+                    <td>0.0647</td>
+                    <td>0.1134</td>
+                    <td>0.1078</td>
                 </tr>
             
                 <tr>
                     <td>Stup II</td>
-                    <td>57,017.319</td>
-                    <td>13.3001</td>
-                    <td>0.0273</td>
-                    <td>0.0591</td>
-                    <td>0.0777</td>
+                    <td>0.1</td>
+                    <td>57,073.370</td>
+                    <td>13.2990</td>
+                    <td>0.0272</td>
+                    <td>0.0582</td>
+                    <td>0.0772</td>
                 </tr>
             
                 <tr>
                     <td>Stupsko Brdo</td>
-                    <td>22,231.231</td>
-                    <td>6.6809</td>
-                    <td>0.0108</td>
-                    <td>0.0175</td>
-                    <td>0.0170</td>
+                    <td>0.1</td>
+                    <td>22,397.810</td>
+                    <td>6.9497</td>
+                    <td>0.0110</td>
+                    <td>0.0179</td>
+                    <td>0.0161</td>
                 </tr>
             
                 <tr>
                     <td>Vojkovići</td>
-                    <td>117.585</td>
-                    <td>0.0247</td>
+                    <td>0.1</td>
+                    <td>136.450</td>
+                    <td>0.0249</td>
                     <td>0.0001</td>
                     <td>0.0002</td>
                     <td>0.0002</td>
@@ -524,20 +577,22 @@
             
                 <tr>
                     <td>Vrelo Bosne</td>
-                    <td>12,803.790</td>
-                    <td>2.9123</td>
-                    <td>0.0061</td>
-                    <td>0.0124</td>
-                    <td>0.0180</td>
+                    <td>0.1</td>
+                    <td>12,084.300</td>
+                    <td>2.5899</td>
+                    <td>0.0057</td>
+                    <td>0.0116</td>
+                    <td>0.0179</td>
                 </tr>
             
                 <tr>
                     <td>Vreoca</td>
-                    <td>23,509.143</td>
-                    <td>7.8739</td>
-                    <td>0.0120</td>
-                    <td>0.0204</td>
-                    <td>0.0148</td>
+                    <td>0.1</td>
+                    <td>25,113.900</td>
+                    <td>8.6035</td>
+                    <td>0.0129</td>
+                    <td>0.0222</td>
+                    <td>0.0145</td>
                 </tr>
             
                 </tbody>
@@ -548,11 +603,12 @@
         <details>
             <summary>
                 <b>ILIJAŠ</b>
-                | Heat: 236,043.838
-                | CO₂: 60.3051
-                | NOx: 0.115
-                | SO₂: 0.228
-                | PM2.5: 0.284
+                | Specific Heat Demand: 0.1 kWh/m²·yr
+                | Heat Demand: 235,682 MWh/yr
+                | CO₂: 60.205 kton/yr
+                | NOx: 0.114 kton/yr
+                | SO₂: 0.228 kton/yr
+                | PM2.5: 0.283 kton/yr
             </summary>
 
             <table
@@ -565,11 +621,12 @@
                 <thead>
                     <tr>
                         <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
+                        <th>Specific Heat Demand<br>[kWh/m²·yr]</th>
+                        <th>Heat Demand<br>[MWh/yr]</th>
+                        <th>CO₂<br>[kton/yr]</th>
+                        <th>NOx<br>[kton/yr]</th>
+                        <th>SO₂<br>[kton/yr]</th>
+                        <th>PM2.5<br>[kton/yr]</th>
                     </tr>
                 </thead>
 
@@ -577,16 +634,18 @@
         
                 <tr>
                     <td>Bioča</td>
-                    <td>1,917.211</td>
-                    <td>0.3947</td>
-                    <td>0.0009</td>
-                    <td>0.0019</td>
-                    <td>0.0030</td>
+                    <td>0.1</td>
+                    <td>2,083.660</td>
+                    <td>0.4180</td>
+                    <td>0.0010</td>
+                    <td>0.0021</td>
+                    <td>0.0033</td>
                 </tr>
             
                 <tr>
                     <td>Donji Čevljanovići</td>
-                    <td>33.283</td>
+                    <td>0.1</td>
+                    <td>33.280</td>
                     <td>0.0023</td>
                     <td>0.0000</td>
                     <td>0.0000</td>
@@ -595,7 +654,8 @@
             
                 <tr>
                     <td>Gajevi</td>
-                    <td>1,150.708</td>
+                    <td>0.2</td>
+                    <td>1,150.710</td>
                     <td>0.2094</td>
                     <td>0.0005</td>
                     <td>0.0014</td>
@@ -604,34 +664,38 @@
             
                 <tr>
                     <td>Ilijaš</td>
-                    <td>61,769.264</td>
-                    <td>20.8749</td>
-                    <td>0.0306</td>
-                    <td>0.0473</td>
-                    <td>0.0307</td>
+                    <td>0.1</td>
+                    <td>60,260.340</td>
+                    <td>20.3838</td>
+                    <td>0.0300</td>
+                    <td>0.0468</td>
+                    <td>0.0304</td>
                 </tr>
             
                 <tr>
                     <td>Ilijaš Stari</td>
-                    <td>47,448.834</td>
-                    <td>12.1184</td>
-                    <td>0.0230</td>
-                    <td>0.0427</td>
-                    <td>0.0566</td>
+                    <td>0.1</td>
+                    <td>49,206.330</td>
+                    <td>12.5750</td>
+                    <td>0.0236</td>
+                    <td>0.0433</td>
+                    <td>0.0572</td>
                 </tr>
             
                 <tr>
                     <td>Kadarići</td>
-                    <td>6,359.662</td>
-                    <td>1.3733</td>
-                    <td>0.0031</td>
-                    <td>0.0074</td>
-                    <td>0.0100</td>
+                    <td>0.1</td>
+                    <td>6,420.560</td>
+                    <td>1.4174</td>
+                    <td>0.0032</td>
+                    <td>0.0077</td>
+                    <td>0.0101</td>
                 </tr>
             
                 <tr>
                     <td>Kamenica</td>
-                    <td>1,327.839</td>
+                    <td>0.2</td>
+                    <td>1,327.840</td>
                     <td>0.2209</td>
                     <td>0.0006</td>
                     <td>0.0013</td>
@@ -640,17 +704,19 @@
             
                 <tr>
                     <td>Lješevo</td>
-                    <td>17,537.751</td>
-                    <td>3.9643</td>
-                    <td>0.0086</td>
-                    <td>0.0198</td>
-                    <td>0.0269</td>
+                    <td>0.1</td>
+                    <td>17,297.390</td>
+                    <td>3.8221</td>
+                    <td>0.0085</td>
+                    <td>0.0193</td>
+                    <td>0.0270</td>
                 </tr>
             
                 <tr>
                     <td>Ljubina</td>
-                    <td>462.578</td>
-                    <td>0.1769</td>
+                    <td>0.1</td>
+                    <td>449.820</td>
+                    <td>0.1760</td>
                     <td>0.0002</td>
                     <td>0.0003</td>
                     <td>0.0001</td>
@@ -658,43 +724,48 @@
             
                 <tr>
                     <td>Ljubnići</td>
-                    <td>9,542.639</td>
-                    <td>1.6759</td>
+                    <td>0.1</td>
+                    <td>9,520.360</td>
+                    <td>1.6966</td>
                     <td>0.0044</td>
-                    <td>0.0099</td>
+                    <td>0.0101</td>
                     <td>0.0168</td>
                 </tr>
             
                 <tr>
                     <td>Malešići</td>
-                    <td>14,330.478</td>
-                    <td>2.7554</td>
+                    <td>0.1</td>
+                    <td>14,006.570</td>
+                    <td>2.7447</td>
                     <td>0.0065</td>
                     <td>0.0142</td>
-                    <td>0.0228</td>
+                    <td>0.0224</td>
                 </tr>
             
                 <tr>
                     <td>Misoča</td>
-                    <td>8,663.862</td>
-                    <td>1.7297</td>
-                    <td>0.0042</td>
-                    <td>0.0099</td>
-                    <td>0.0149</td>
+                    <td>0.1</td>
+                    <td>8,885.130</td>
+                    <td>1.8315</td>
+                    <td>0.0043</td>
+                    <td>0.0101</td>
+                    <td>0.0150</td>
                 </tr>
             
                 <tr>
                     <td>Mrakovo</td>
-                    <td>23,666.625</td>
-                    <td>4.2862</td>
+                    <td>0.1</td>
+                    <td>23,900.120</td>
+                    <td>4.3039</td>
                     <td>0.0111</td>
-                    <td>0.0276</td>
-                    <td>0.0423</td>
+                    <td>0.0277</td>
+                    <td>0.0426</td>
                 </tr>
             
                 <tr>
                     <td>Nišići</td>
-                    <td>1,218.965</td>
+                    <td>0.1</td>
+                    <td>1,218.970</td>
                     <td>0.1780</td>
                     <td>0.0006</td>
                     <td>0.0010</td>
@@ -703,7 +774,8 @@
             
                 <tr>
                     <td>Podlipnik</td>
-                    <td>64.415</td>
+                    <td>0.1</td>
+                    <td>64.410</td>
                     <td>0.0112</td>
                     <td>0.0000</td>
                     <td>0.0001</td>
@@ -712,16 +784,18 @@
             
                 <tr>
                     <td>Podlugovi</td>
-                    <td>39,422.487</td>
-                    <td>10.1102</td>
-                    <td>0.0196</td>
-                    <td>0.0420</td>
-                    <td>0.0500</td>
+                    <td>0.1</td>
+                    <td>38,729.130</td>
+                    <td>9.9908</td>
+                    <td>0.0193</td>
+                    <td>0.0414</td>
+                    <td>0.0490</td>
                 </tr>
             
                 <tr>
                     <td>Srednje</td>
-                    <td>1,127.238</td>
+                    <td>0.1</td>
+                    <td>1,127.240</td>
                     <td>0.2233</td>
                     <td>0.0006</td>
                     <td>0.0015</td>
@@ -736,11 +810,12 @@
         <details>
             <summary>
                 <b>NOVI GRAD</b>
-                | Heat: 889,105.209
-                | CO₂: 253.1659
-                | NOx: 0.417
-                | SO₂: 0.703
-                | PM2.5: 0.734
+                | Specific Heat Demand: 0.1 kWh/m²·yr
+                | Heat Demand: 884,678 MWh/yr
+                | CO₂: 251.256 kton/yr
+                | NOx: 0.415 kton/yr
+                | SO₂: 0.703 kton/yr
+                | PM2.5: 0.737 kton/yr
             </summary>
 
             <table
@@ -753,11 +828,12 @@
                 <thead>
                     <tr>
                         <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
+                        <th>Specific Heat Demand<br>[kWh/m²·yr]</th>
+                        <th>Heat Demand<br>[MWh/yr]</th>
+                        <th>CO₂<br>[kton/yr]</th>
+                        <th>NOx<br>[kton/yr]</th>
+                        <th>SO₂<br>[kton/yr]</th>
+                        <th>PM2.5<br>[kton/yr]</th>
                     </tr>
                 </thead>
 
@@ -765,227 +841,242 @@
         
                 <tr>
                     <td>Alipašin Most I</td>
-                    <td>40,565.090</td>
-                    <td>7.1915</td>
-                    <td>0.0192</td>
-                    <td>0.0457</td>
-                    <td>0.0757</td>
+                    <td>0.1</td>
+                    <td>44,686.890</td>
+                    <td>8.1357</td>
+                    <td>0.0213</td>
+                    <td>0.0507</td>
+                    <td>0.0824</td>
                 </tr>
             
                 <tr>
                     <td>Alipašin Most II</td>
-                    <td>65,248.848</td>
-                    <td>21.8851</td>
-                    <td>0.0335</td>
-                    <td>0.0579</td>
-                    <td>0.0412</td>
+                    <td>0.1</td>
+                    <td>64,540.900</td>
+                    <td>21.8186</td>
+                    <td>0.0330</td>
+                    <td>0.0560</td>
+                    <td>0.0384</td>
                 </tr>
             
                 <tr>
                     <td>Alipašino Polje A I</td>
-                    <td>27,585.187</td>
-                    <td>9.4606</td>
-                    <td>0.0119</td>
-                    <td>0.0101</td>
-                    <td>0.0007</td>
+                    <td>0.1</td>
+                    <td>23,604.470</td>
+                    <td>8.3137</td>
+                    <td>0.0104</td>
+                    <td>0.0098</td>
+                    <td>0.0003</td>
                 </tr>
             
                 <tr>
                     <td>Alipašino Polje B I</td>
-                    <td>17,679.365</td>
-                    <td>5.1023</td>
-                    <td>0.0061</td>
-                    <td>0.0010</td>
+                    <td>0.1</td>
+                    <td>19,587.890</td>
+                    <td>5.6006</td>
+                    <td>0.0067</td>
+                    <td>0.0009</td>
                     <td>0.0001</td>
                 </tr>
             
                 <tr>
                     <td>Alipašino Polje C I</td>
-                    <td>13,613.532</td>
-                    <td>3.8610</td>
-                    <td>0.0047</td>
-                    <td>0.0006</td>
+                    <td>0.1</td>
+                    <td>16,221.590</td>
+                    <td>4.6059</td>
+                    <td>0.0056</td>
+                    <td>0.0007</td>
                     <td>0.0003</td>
                 </tr>
             
                 <tr>
                     <td>Alipašino PoljeA II</td>
-                    <td>17,779.430</td>
-                    <td>5.1707</td>
-                    <td>0.0062</td>
-                    <td>0.0013</td>
+                    <td>0.1</td>
+                    <td>16,646.720</td>
+                    <td>4.8803</td>
+                    <td>0.0059</td>
+                    <td>0.0014</td>
                     <td>0.0001</td>
                 </tr>
             
                 <tr>
                     <td>Aneks</td>
-                    <td>12,767.757</td>
-                    <td>2.6029</td>
-                    <td>0.0058</td>
-                    <td>0.0112</td>
-                    <td>0.0188</td>
+                    <td>0.1</td>
+                    <td>12,210.300</td>
+                    <td>2.6037</td>
+                    <td>0.0054</td>
+                    <td>0.0104</td>
+                    <td>0.0164</td>
                 </tr>
             
                 <tr>
                     <td>Briješće</td>
-                    <td>95,665.450</td>
-                    <td>29.1923</td>
-                    <td>0.0483</td>
-                    <td>0.0900</td>
-                    <td>0.0826</td>
+                    <td>0.1</td>
+                    <td>96,225.200</td>
+                    <td>29.4056</td>
+                    <td>0.0486</td>
+                    <td>0.0914</td>
+                    <td>0.0830</td>
                 </tr>
             
                 <tr>
                     <td>Buća Potok</td>
-                    <td>54,343.683</td>
-                    <td>17.7894</td>
-                    <td>0.0271</td>
-                    <td>0.0452</td>
-                    <td>0.0332</td>
+                    <td>0.1</td>
+                    <td>52,312.390</td>
+                    <td>16.5931</td>
+                    <td>0.0257</td>
+                    <td>0.0420</td>
+                    <td>0.0350</td>
                 </tr>
             
                 <tr>
                     <td>Dobrinja A</td>
-                    <td>35,779.312</td>
-                    <td>11.2114</td>
-                    <td>0.0170</td>
-                    <td>0.0278</td>
-                    <td>0.0216</td>
+                    <td>0.1</td>
+                    <td>40,396.900</td>
+                    <td>12.6478</td>
+                    <td>0.0189</td>
+                    <td>0.0301</td>
+                    <td>0.0225</td>
                 </tr>
             
                 <tr>
                     <td>Dobrinja B</td>
-                    <td>27,065.199</td>
-                    <td>9.3620</td>
-                    <td>0.0120</td>
-                    <td>0.0122</td>
-                    <td>0.0022</td>
+                    <td>0.1</td>
+                    <td>24,943.030</td>
+                    <td>8.4498</td>
+                    <td>0.0110</td>
+                    <td>0.0113</td>
+                    <td>0.0033</td>
                 </tr>
             
                 <tr>
                     <td>Dobrinja C</td>
-                    <td>19,768.547</td>
-                    <td>6.8421</td>
-                    <td>0.0086</td>
-                    <td>0.0075</td>
-                    <td>0.0003</td>
+                    <td>0.1</td>
+                    <td>20,586.930</td>
+                    <td>7.1016</td>
+                    <td>0.0089</td>
+                    <td>0.0081</td>
+                    <td>0.0004</td>
                 </tr>
             
                 <tr>
                     <td>Dobrinja D</td>
-                    <td>22,434.114</td>
-                    <td>7.0364</td>
-                    <td>0.0088</td>
-                    <td>0.0057</td>
-                    <td>0.0013</td>
+                    <td>0.1</td>
+                    <td>22,474.700</td>
+                    <td>7.1691</td>
+                    <td>0.0090</td>
+                    <td>0.0058</td>
+                    <td>0.0011</td>
                 </tr>
             
                 <tr>
                     <td>Dobroševići</td>
-                    <td>80,035.863</td>
-                    <td>16.7667</td>
-                    <td>0.0386</td>
-                    <td>0.0881</td>
-                    <td>0.1299</td>
+                    <td>0.1</td>
+                    <td>80,336.150</td>
+                    <td>16.8177</td>
+                    <td>0.0387</td>
+                    <td>0.0882</td>
+                    <td>0.1300</td>
                 </tr>
             
                 <tr>
                     <td>Dolac</td>
-                    <td>41,345.018</td>
-                    <td>7.2632</td>
-                    <td>0.0194</td>
-                    <td>0.0439</td>
-                    <td>0.0763</td>
+                    <td>0.1</td>
+                    <td>39,812.650</td>
+                    <td>7.3386</td>
+                    <td>0.0189</td>
+                    <td>0.0436</td>
+                    <td>0.0718</td>
                 </tr>
             
                 <tr>
                     <td>N Heroja Sokolje</td>
-                    <td>148,460.250</td>
-                    <td>47.6642</td>
-                    <td>0.0758</td>
-                    <td>0.1401</td>
-                    <td>0.1119</td>
+                    <td>0.1</td>
+                    <td>146,923.030</td>
+                    <td>47.1058</td>
+                    <td>0.0750</td>
+                    <td>0.1381</td>
+                    <td>0.1110</td>
                 </tr>
             
                 <tr>
                     <td>Olimpijsko Selo</td>
-                    <td>8,438.020</td>
-                    <td>2.5677</td>
-                    <td>0.0032</td>
-                    <td>0.0014</td>
-                    <td>0.0002</td>
+                    <td>0.1</td>
+                    <td>8,885.150</td>
+                    <td>2.6628</td>
+                    <td>0.0034</td>
+                    <td>0.0015</td>
+                    <td>0.0008</td>
                 </tr>
             
                 <tr>
                     <td>Otoka</td>
-                    <td>5,904.037</td>
-                    <td>1.6539</td>
+                    <td>0.1</td>
+                    <td>5,650.190</td>
+                    <td>1.6693</td>
                     <td>0.0020</td>
-                    <td>0.0001</td>
-                    <td>0.0000</td>
-                </tr>
-            
-                <tr>
-                    <td>RS</td>
-                    <td>79.741</td>
-                    <td>0.0334</td>
-                    <td>0.0000</td>
-                    <td>0.0001</td>
+                    <td>0.0006</td>
                     <td>0.0000</td>
                 </tr>
             
                 <tr>
                     <td>Saraj Polje</td>
-                    <td>65,778.706</td>
-                    <td>19.2288</td>
-                    <td>0.0302</td>
-                    <td>0.0457</td>
-                    <td>0.0451</td>
+                    <td>0.1</td>
+                    <td>61,239.980</td>
+                    <td>17.8371</td>
+                    <td>0.0282</td>
+                    <td>0.0430</td>
+                    <td>0.0436</td>
                 </tr>
             
                 <tr>
                     <td>Staro Hrasno</td>
-                    <td>23,020.612</td>
-                    <td>5.6356</td>
-                    <td>0.0097</td>
-                    <td>0.0168</td>
-                    <td>0.0207</td>
+                    <td>0.1</td>
+                    <td>21,009.140</td>
+                    <td>4.7801</td>
+                    <td>0.0091</td>
+                    <td>0.0175</td>
+                    <td>0.0235</td>
                 </tr>
             
                 <tr>
                     <td>Čengić Vila</td>
-                    <td>10,233.064</td>
-                    <td>2.9852</td>
-                    <td>0.0036</td>
-                    <td>0.0008</td>
-                    <td>0.0000</td>
+                    <td>0.1</td>
+                    <td>9,682.110</td>
+                    <td>2.7967</td>
+                    <td>0.0034</td>
+                    <td>0.0010</td>
+                    <td>0.0004</td>
                 </tr>
             
                 <tr>
                     <td>Švrakino Selo I</td>
-                    <td>8,825.857</td>
-                    <td>2.3858</td>
-                    <td>0.0042</td>
-                    <td>0.0081</td>
-                    <td>0.0090</td>
+                    <td>0.1</td>
+                    <td>7,450.170</td>
+                    <td>2.1666</td>
+                    <td>0.0038</td>
+                    <td>0.0080</td>
+                    <td>0.0075</td>
                 </tr>
             
                 <tr>
                     <td>Švrakino Selo II</td>
-                    <td>25,585.093</td>
-                    <td>5.2332</td>
-                    <td>0.0114</td>
-                    <td>0.0226</td>
-                    <td>0.0363</td>
+                    <td>0.1</td>
+                    <td>25,573.500</td>
+                    <td>5.0832</td>
+                    <td>0.0112</td>
+                    <td>0.0216</td>
+                    <td>0.0362</td>
                 </tr>
             
                 <tr>
                     <td>Švrakino Selo III</td>
-                    <td>21,103.434</td>
-                    <td>5.0405</td>
-                    <td>0.0099</td>
-                    <td>0.0195</td>
-                    <td>0.0266</td>
+                    <td>0.1</td>
+                    <td>23,677.680</td>
+                    <td>5.6734</td>
+                    <td>0.0110</td>
+                    <td>0.0211</td>
+                    <td>0.0291</td>
                 </tr>
             
                 </tbody>
@@ -996,11 +1087,12 @@
         <details>
             <summary>
                 <b>NOVO SARAJEVO</b>
-                | Heat: 471,983.984
-                | CO₂: 137.0330
-                | NOx: 0.215
-                | SO₂: 0.319
-                | PM2.5: 0.319
+                | Specific Heat Demand: 0.1 kWh/m²·yr
+                | Heat Demand: 477,055 MWh/yr
+                | CO₂: 139.062 kton/yr
+                | NOx: 0.217 kton/yr
+                | SO₂: 0.318 kton/yr
+                | PM2.5: 0.316 kton/yr
             </summary>
 
             <table
@@ -1013,11 +1105,12 @@
                 <thead>
                     <tr>
                         <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
+                        <th>Specific Heat Demand<br>[kWh/m²·yr]</th>
+                        <th>Heat Demand<br>[MWh/yr]</th>
+                        <th>CO₂<br>[kton/yr]</th>
+                        <th>NOx<br>[kton/yr]</th>
+                        <th>SO₂<br>[kton/yr]</th>
+                        <th>PM2.5<br>[kton/yr]</th>
                     </tr>
                 </thead>
 
@@ -1025,182 +1118,212 @@
         
                 <tr>
                     <td>Dolac</td>
-                    <td>45,142.463</td>
-                    <td>14.4194</td>
-                    <td>0.0213</td>
-                    <td>0.0290</td>
-                    <td>0.0225</td>
+                    <td>0.1</td>
+                    <td>53,982.050</td>
+                    <td>17.7787</td>
+                    <td>0.0256</td>
+                    <td>0.0345</td>
+                    <td>0.0231</td>
                 </tr>
             
                 <tr>
                     <td>Gornji Kovačići</td>
-                    <td>11,652.175</td>
-                    <td>2.2312</td>
-                    <td>0.0056</td>
-                    <td>0.0146</td>
-                    <td>0.0208</td>
+                    <td>0.1</td>
+                    <td>13,142.230</td>
+                    <td>2.5382</td>
+                    <td>0.0061</td>
+                    <td>0.0141</td>
+                    <td>0.0219</td>
                 </tr>
             
                 <tr>
                     <td>Gornji Velešići</td>
-                    <td>16,042.677</td>
-                    <td>3.2661</td>
-                    <td>0.0075</td>
-                    <td>0.0164</td>
-                    <td>0.0249</td>
+                    <td>0.1</td>
+                    <td>12,818.420</td>
+                    <td>2.4908</td>
+                    <td>0.0060</td>
+                    <td>0.0131</td>
+                    <td>0.0211</td>
                 </tr>
             
                 <tr>
                     <td>Grbavica I</td>
-                    <td>28,715.569</td>
-                    <td>10.0755</td>
-                    <td>0.0130</td>
-                    <td>0.0131</td>
-                    <td>0.0025</td>
-                </tr>
-            
-                <tr>
-                    <td>Grbavica II</td>
-                    <td>26,481.203</td>
-                    <td>9.0940</td>
-                    <td>0.0120</td>
-                    <td>0.0142</td>
+                    <td>0.1</td>
+                    <td>31,701.880</td>
+                    <td>10.9118</td>
+                    <td>0.0143</td>
+                    <td>0.0147</td>
                     <td>0.0046</td>
                 </tr>
             
                 <tr>
+                    <td>Grbavica II</td>
+                    <td>0.1</td>
+                    <td>24,498.190</td>
+                    <td>8.3786</td>
+                    <td>0.0112</td>
+                    <td>0.0140</td>
+                    <td>0.0049</td>
+                </tr>
+            
+                <tr>
                     <td>Hrasno</td>
-                    <td>19,739.825</td>
-                    <td>5.7642</td>
-                    <td>0.0071</td>
+                    <td>0.1</td>
+                    <td>18,795.140</td>
+                    <td>5.5795</td>
+                    <td>0.0068</td>
                     <td>0.0023</td>
-                    <td>0.0010</td>
-                </tr>
-            
-                <tr>
-                    <td>Hrasno Brdo</td>
-                    <td>25,319.060</td>
-                    <td>4.6227</td>
-                    <td>0.0118</td>
-                    <td>0.0267</td>
-                    <td>0.0442</td>
-                </tr>
-            
-                <tr>
-                    <td>Kovačići</td>
-                    <td>19,366.973</td>
-                    <td>6.2767</td>
-                    <td>0.0089</td>
-                    <td>0.0118</td>
-                    <td>0.0074</td>
-                </tr>
-            
-                <tr>
-                    <td>Kvadrant</td>
-                    <td>6,326.442</td>
-                    <td>2.4145</td>
-                    <td>0.0032</td>
-                    <td>0.0040</td>
-                    <td>0.0007</td>
-                </tr>
-            
-                <tr>
-                    <td>Lukavica</td>
-                    <td>347.819</td>
-                    <td>0.1092</td>
-                    <td>0.0002</td>
-                    <td>0.0009</td>
-                    <td>0.0005</td>
-                </tr>
-            
-                <tr>
-                    <td>Malta</td>
-                    <td>18,870.810</td>
-                    <td>6.2711</td>
-                    <td>0.0078</td>
-                    <td>0.0057</td>
                     <td>0.0003</td>
                 </tr>
             
                 <tr>
+                    <td>Hrasno Brdo</td>
+                    <td>0.1</td>
+                    <td>24,255.850</td>
+                    <td>4.6422</td>
+                    <td>0.0113</td>
+                    <td>0.0255</td>
+                    <td>0.0407</td>
+                </tr>
+            
+                <tr>
+                    <td>Kovačići</td>
+                    <td>0.1</td>
+                    <td>18,543.360</td>
+                    <td>6.0469</td>
+                    <td>0.0084</td>
+                    <td>0.0119</td>
+                    <td>0.0065</td>
+                </tr>
+            
+                <tr>
+                    <td>Kvadrant</td>
+                    <td>0.1</td>
+                    <td>6,860.950</td>
+                    <td>2.5342</td>
+                    <td>0.0033</td>
+                    <td>0.0038</td>
+                    <td>0.0006</td>
+                </tr>
+            
+                <tr>
+                    <td>Lukavica</td>
+                    <td>0.1</td>
+                    <td>175.350</td>
+                    <td>0.0413</td>
+                    <td>0.0001</td>
+                    <td>0.0003</td>
+                    <td>0.0004</td>
+                </tr>
+            
+                <tr>
+                    <td>Malta</td>
+                    <td>0.1</td>
+                    <td>18,153.700</td>
+                    <td>5.7598</td>
+                    <td>0.0072</td>
+                    <td>0.0043</td>
+                    <td>0.0009</td>
+                </tr>
+            
+                <tr>
                     <td>Miljevići</td>
-                    <td>868.040</td>
-                    <td>0.2638</td>
-                    <td>0.0005</td>
-                    <td>0.0013</td>
-                    <td>0.0010</td>
+                    <td>0.1</td>
+                    <td>526.200</td>
+                    <td>0.1175</td>
+                    <td>0.0002</td>
+                    <td>0.0004</td>
+                    <td>0.0006</td>
                 </tr>
             
                 <tr>
                     <td>Pofalići I</td>
-                    <td>43,181.905</td>
-                    <td>10.7180</td>
-                    <td>0.0213</td>
-                    <td>0.0454</td>
-                    <td>0.0571</td>
+                    <td>0.1</td>
+                    <td>41,375.340</td>
+                    <td>10.2710</td>
+                    <td>0.0203</td>
+                    <td>0.0436</td>
+                    <td>0.0539</td>
                 </tr>
             
                 <tr>
                     <td>Pofalići II</td>
-                    <td>27,303.447</td>
-                    <td>4.9390</td>
-                    <td>0.0128</td>
-                    <td>0.0290</td>
-                    <td>0.0492</td>
+                    <td>0.1</td>
+                    <td>27,738.320</td>
+                    <td>5.2960</td>
+                    <td>0.0132</td>
+                    <td>0.0295</td>
+                    <td>0.0484</td>
+                </tr>
+            
+                <tr>
+                    <td>RS</td>
+                    <td>0.1</td>
+                    <td>242.900</td>
+                    <td>0.0353</td>
+                    <td>0.0001</td>
+                    <td>0.0002</td>
+                    <td>0.0005</td>
                 </tr>
             
                 <tr>
                     <td>Trg Heroja</td>
-                    <td>14,996.602</td>
-                    <td>4.4052</td>
-                    <td>0.0055</td>
-                    <td>0.0024</td>
-                    <td>0.0013</td>
+                    <td>0.1</td>
+                    <td>18,521.320</td>
+                    <td>5.3667</td>
+                    <td>0.0069</td>
+                    <td>0.0031</td>
+                    <td>0.0027</td>
                 </tr>
             
                 <tr>
                     <td>Velešići</td>
-                    <td>31,058.228</td>
-                    <td>8.3814</td>
-                    <td>0.0151</td>
-                    <td>0.0283</td>
-                    <td>0.0333</td>
+                    <td>0.1</td>
+                    <td>37,258.620</td>
+                    <td>10.3755</td>
+                    <td>0.0183</td>
+                    <td>0.0339</td>
+                    <td>0.0379</td>
                 </tr>
             
                 <tr>
                     <td>Vraca</td>
-                    <td>34,857.557</td>
-                    <td>8.1335</td>
-                    <td>0.0164</td>
-                    <td>0.0307</td>
-                    <td>0.0458</td>
+                    <td>0.1</td>
+                    <td>31,384.060</td>
+                    <td>7.0942</td>
+                    <td>0.0150</td>
+                    <td>0.0296</td>
+                    <td>0.0447</td>
                 </tr>
             
                 <tr>
                     <td>Čengić Vila I</td>
-                    <td>21,701.347</td>
-                    <td>7.0416</td>
-                    <td>0.0088</td>
-                    <td>0.0069</td>
-                    <td>0.0012</td>
+                    <td>0.1</td>
+                    <td>21,373.700</td>
+                    <td>7.0284</td>
+                    <td>0.0089</td>
+                    <td>0.0075</td>
+                    <td>0.0014</td>
                 </tr>
             
                 <tr>
                     <td>Čengić Vila II</td>
-                    <td>10,888.797</td>
-                    <td>3.3270</td>
-                    <td>0.0041</td>
-                    <td>0.0017</td>
-                    <td>0.0001</td>
+                    <td>0.1</td>
+                    <td>9,293.290</td>
+                    <td>2.6640</td>
+                    <td>0.0032</td>
+                    <td>0.0004</td>
+                    <td>0.0000</td>
                 </tr>
             
                 <tr>
                     <td>Željeznička</td>
-                    <td>69,123.047</td>
-                    <td>25.2788</td>
-                    <td>0.0319</td>
-                    <td>0.0340</td>
-                    <td>0.0010</td>
+                    <td>0.1</td>
+                    <td>66,413.940</td>
+                    <td>24.1113</td>
+                    <td>0.0304</td>
+                    <td>0.0315</td>
+                    <td>0.0009</td>
                 </tr>
             
                 </tbody>
@@ -1211,11 +1334,12 @@
         <details>
             <summary>
                 <b>STARI GRAD</b>
-                | Heat: 369,880.869
-                | CO₂: 88.1785
-                | NOx: 0.179
-                | SO₂: 0.375
-                | PM2.5: 0.498
+                | Specific Heat Demand: 0.1 kWh/m²·yr
+                | Heat Demand: 369,657 MWh/yr
+                | CO₂: 87.845 kton/yr
+                | NOx: 0.178 kton/yr
+                | SO₂: 0.377 kton/yr
+                | PM2.5: 0.500 kton/yr
             </summary>
 
             <table
@@ -1228,11 +1352,12 @@
                 <thead>
                     <tr>
                         <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
+                        <th>Specific Heat Demand<br>[kWh/m²·yr]</th>
+                        <th>Heat Demand<br>[MWh/yr]</th>
+                        <th>CO₂<br>[kton/yr]</th>
+                        <th>NOx<br>[kton/yr]</th>
+                        <th>SO₂<br>[kton/yr]</th>
+                        <th>PM2.5<br>[kton/yr]</th>
                     </tr>
                 </thead>
 
@@ -1240,35 +1365,39 @@
         
                 <tr>
                     <td>Babića Bašča</td>
-                    <td>15,110.882</td>
-                    <td>3.1472</td>
-                    <td>0.0074</td>
-                    <td>0.0163</td>
-                    <td>0.0255</td>
+                    <td>0.1</td>
+                    <td>11,669.550</td>
+                    <td>2.4990</td>
+                    <td>0.0057</td>
+                    <td>0.0121</td>
+                    <td>0.0189</td>
                 </tr>
             
                 <tr>
                     <td>Baščaršija</td>
-                    <td>32,869.944</td>
-                    <td>12.8942</td>
-                    <td>0.0168</td>
-                    <td>0.0233</td>
-                    <td>0.0028</td>
+                    <td>0.1</td>
+                    <td>37,955.860</td>
+                    <td>14.8295</td>
+                    <td>0.0194</td>
+                    <td>0.0272</td>
+                    <td>0.0039</td>
                 </tr>
             
                 <tr>
                     <td>Bistrik</td>
-                    <td>31,726.059</td>
-                    <td>10.1497</td>
-                    <td>0.0163</td>
-                    <td>0.0294</td>
-                    <td>0.0252</td>
+                    <td>0.1</td>
+                    <td>32,085.500</td>
+                    <td>10.0938</td>
+                    <td>0.0165</td>
+                    <td>0.0309</td>
+                    <td>0.0272</td>
                 </tr>
             
                 <tr>
                     <td>Bulozi</td>
-                    <td>955.530</td>
-                    <td>0.3452</td>
+                    <td>0.2</td>
+                    <td>933.050</td>
+                    <td>0.3400</td>
                     <td>0.0005</td>
                     <td>0.0009</td>
                     <td>0.0003</td>
@@ -1276,155 +1405,172 @@
             
                 <tr>
                     <td>Hreša</td>
-                    <td>6,948.271</td>
-                    <td>1.1950</td>
-                    <td>0.0033</td>
-                    <td>0.0074</td>
-                    <td>0.0133</td>
+                    <td>0.2</td>
+                    <td>6,562.220</td>
+                    <td>1.1342</td>
+                    <td>0.0031</td>
+                    <td>0.0070</td>
+                    <td>0.0126</td>
                 </tr>
             
                 <tr>
                     <td>Hrid Jarčedoli</td>
-                    <td>21,914.535</td>
-                    <td>4.1064</td>
-                    <td>0.0104</td>
-                    <td>0.0246</td>
-                    <td>0.0386</td>
+                    <td>0.1</td>
+                    <td>21,726.120</td>
+                    <td>3.9542</td>
+                    <td>0.0103</td>
+                    <td>0.0240</td>
+                    <td>0.0392</td>
                 </tr>
             
                 <tr>
                     <td>Kovači</td>
-                    <td>20,093.781</td>
-                    <td>4.0437</td>
-                    <td>0.0091</td>
-                    <td>0.0159</td>
-                    <td>0.0298</td>
+                    <td>0.1</td>
+                    <td>20,898.730</td>
+                    <td>3.6967</td>
+                    <td>0.0096</td>
+                    <td>0.0197</td>
+                    <td>0.0368</td>
                 </tr>
             
                 <tr>
                     <td>Logavina I</td>
-                    <td>13,120.343</td>
-                    <td>3.5152</td>
-                    <td>0.0063</td>
-                    <td>0.0108</td>
-                    <td>0.0136</td>
+                    <td>0.1</td>
+                    <td>18,148.920</td>
+                    <td>5.3513</td>
+                    <td>0.0089</td>
+                    <td>0.0164</td>
+                    <td>0.0154</td>
                 </tr>
             
                 <tr>
                     <td>Logavina II</td>
-                    <td>17,887.881</td>
-                    <td>4.8849</td>
-                    <td>0.0088</td>
-                    <td>0.0205</td>
-                    <td>0.0196</td>
+                    <td>0.1</td>
+                    <td>14,944.020</td>
+                    <td>4.3301</td>
+                    <td>0.0074</td>
+                    <td>0.0162</td>
+                    <td>0.0140</td>
                 </tr>
             
                 <tr>
                     <td>Mahmutovac</td>
-                    <td>15,875.209</td>
-                    <td>2.9284</td>
-                    <td>0.0076</td>
-                    <td>0.0188</td>
-                    <td>0.0293</td>
+                    <td>0.1</td>
+                    <td>16,230.260</td>
+                    <td>3.0041</td>
+                    <td>0.0078</td>
+                    <td>0.0195</td>
+                    <td>0.0301</td>
                 </tr>
             
                 <tr>
                     <td>Medrese I</td>
-                    <td>14,765.562</td>
-                    <td>2.9179</td>
-                    <td>0.0070</td>
-                    <td>0.0160</td>
-                    <td>0.0245</td>
+                    <td>0.1</td>
+                    <td>20,936.460</td>
+                    <td>4.4342</td>
+                    <td>0.0102</td>
+                    <td>0.0247</td>
+                    <td>0.0346</td>
                 </tr>
             
                 <tr>
                     <td>Medrese II</td>
-                    <td>10,475.398</td>
-                    <td>2.2249</td>
-                    <td>0.0053</td>
-                    <td>0.0137</td>
-                    <td>0.0187</td>
+                    <td>0.1</td>
+                    <td>6,439.320</td>
+                    <td>1.2057</td>
+                    <td>0.0030</td>
+                    <td>0.0074</td>
+                    <td>0.0113</td>
                 </tr>
             
                 <tr>
                     <td>Mjedenica</td>
-                    <td>7,969.596</td>
-                    <td>2.5274</td>
-                    <td>0.0038</td>
-                    <td>0.0064</td>
-                    <td>0.0045</td>
+                    <td>0.1</td>
+                    <td>7,696.110</td>
+                    <td>2.4716</td>
+                    <td>0.0039</td>
+                    <td>0.0078</td>
+                    <td>0.0055</td>
                 </tr>
             
                 <tr>
                     <td>Sedrenik</td>
-                    <td>26,174.761</td>
-                    <td>4.6608</td>
-                    <td>0.0122</td>
-                    <td>0.0275</td>
-                    <td>0.0475</td>
+                    <td>0.1</td>
+                    <td>26,080.290</td>
+                    <td>4.8382</td>
+                    <td>0.0123</td>
+                    <td>0.0288</td>
+                    <td>0.0462</td>
                 </tr>
             
                 <tr>
                     <td>Sumbuluša</td>
-                    <td>11,154.321</td>
-                    <td>1.8844</td>
-                    <td>0.0050</td>
-                    <td>0.0124</td>
-                    <td>0.0199</td>
+                    <td>0.1</td>
+                    <td>7,908.940</td>
+                    <td>1.1935</td>
+                    <td>0.0034</td>
+                    <td>0.0074</td>
+                    <td>0.0144</td>
                 </tr>
             
                 <tr>
                     <td>Toka Džeka</td>
-                    <td>10,272.725</td>
-                    <td>1.6600</td>
-                    <td>0.0047</td>
-                    <td>0.0102</td>
-                    <td>0.0195</td>
+                    <td>0.1</td>
+                    <td>11,007.370</td>
+                    <td>1.9211</td>
+                    <td>0.0052</td>
+                    <td>0.0121</td>
+                    <td>0.0209</td>
                 </tr>
             
                 <tr>
                     <td>Trg Oslobođenja II</td>
-                    <td>16,836.346</td>
-                    <td>6.8632</td>
-                    <td>0.0089</td>
-                    <td>0.0135</td>
-                    <td>0.0011</td>
+                    <td>0.1</td>
+                    <td>11,600.830</td>
+                    <td>4.4493</td>
+                    <td>0.0057</td>
+                    <td>0.0069</td>
+                    <td>0.0003</td>
                 </tr>
             
                 <tr>
                     <td>Vasin Han</td>
-                    <td>45,389.216</td>
-                    <td>7.9932</td>
-                    <td>0.0213</td>
-                    <td>0.0491</td>
-                    <td>0.0840</td>
+                    <td>0.1</td>
+                    <td>45,269.260</td>
+                    <td>7.9072</td>
+                    <td>0.0212</td>
+                    <td>0.0483</td>
+                    <td>0.0841</td>
                 </tr>
             
                 <tr>
                     <td>Vratnik I</td>
-                    <td>12,331.166</td>
-                    <td>2.4674</td>
-                    <td>0.0059</td>
-                    <td>0.0157</td>
-                    <td>0.0210</td>
+                    <td>0.1</td>
+                    <td>11,725.850</td>
+                    <td>2.2341</td>
+                    <td>0.0056</td>
+                    <td>0.0144</td>
+                    <td>0.0204</td>
                 </tr>
             
                 <tr>
                     <td>Vratnik II</td>
-                    <td>14,808.848</td>
-                    <td>3.1994</td>
-                    <td>0.0070</td>
-                    <td>0.0165</td>
-                    <td>0.0221</td>
+                    <td>0.1</td>
+                    <td>16,574.950</td>
+                    <td>3.5216</td>
+                    <td>0.0078</td>
+                    <td>0.0193</td>
+                    <td>0.0256</td>
                 </tr>
             
                 <tr>
                     <td>Širokača</td>
-                    <td>23,200.497</td>
-                    <td>4.5700</td>
-                    <td>0.0108</td>
+                    <td>0.1</td>
+                    <td>23,263.820</td>
+                    <td>4.4357</td>
+                    <td>0.0107</td>
                     <td>0.0258</td>
-                    <td>0.0374</td>
+                    <td>0.0383</td>
                 </tr>
             
                 </tbody>
@@ -1435,11 +1581,12 @@
         <details>
             <summary>
                 <b>TRNOVO</b>
-                | Heat: 26,864.469
-                | CO₂: 7.1075
-                | NOx: 0.012
-                | SO₂: 0.021
-                | PM2.5: 0.026
+                | Specific Heat Demand: 0.1 kWh/m²·yr
+                | Heat Demand: 26,864 MWh/yr
+                | CO₂: 7.107 kton/yr
+                | NOx: 0.012 kton/yr
+                | SO₂: 0.021 kton/yr
+                | PM2.5: 0.026 kton/yr
             </summary>
 
             <table
@@ -1452,11 +1599,12 @@
                 <thead>
                     <tr>
                         <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
+                        <th>Specific Heat Demand<br>[kWh/m²·yr]</th>
+                        <th>Heat Demand<br>[MWh/yr]</th>
+                        <th>CO₂<br>[kton/yr]</th>
+                        <th>NOx<br>[kton/yr]</th>
+                        <th>SO₂<br>[kton/yr]</th>
+                        <th>PM2.5<br>[kton/yr]</th>
                     </tr>
                 </thead>
 
@@ -1464,7 +1612,8 @@
         
                 <tr>
                     <td>Dejčići</td>
-                    <td>3,656.473</td>
+                    <td>0.1</td>
+                    <td>3,656.470</td>
                     <td>0.9384</td>
                     <td>0.0017</td>
                     <td>0.0024</td>
@@ -1473,7 +1622,8 @@
             
                 <tr>
                     <td>Delijaš</td>
-                    <td>1,635.527</td>
+                    <td>0.1</td>
+                    <td>1,635.530</td>
                     <td>0.2416</td>
                     <td>0.0007</td>
                     <td>0.0014</td>
@@ -1481,18 +1631,10 @@
                 </tr>
             
                 <tr>
-                    <td>Kijevo</td>
-                    <td>21.966</td>
-                    <td>0.0015</td>
-                    <td>0.0000</td>
-                    <td>0.0000</td>
-                    <td>0.0001</td>
-                </tr>
-            
-                <tr>
                     <td>Presjenica</td>
-                    <td>12,893.116</td>
-                    <td>4.2531</td>
+                    <td>0.1</td>
+                    <td>12,915.080</td>
+                    <td>4.2546</td>
                     <td>0.0058</td>
                     <td>0.0066</td>
                     <td>0.0038</td>
@@ -1500,7 +1642,8 @@
             
                 <tr>
                     <td>Trnovo</td>
-                    <td>5,392.165</td>
+                    <td>0.1</td>
+                    <td>5,392.160</td>
                     <td>0.9749</td>
                     <td>0.0026</td>
                     <td>0.0061</td>
@@ -1509,7 +1652,8 @@
             
                 <tr>
                     <td>Šabići</td>
-                    <td>3,265.222</td>
+                    <td>0.1</td>
+                    <td>3,265.220</td>
                     <td>0.6980</td>
                     <td>0.0016</td>
                     <td>0.0041</td>
@@ -1524,11 +1668,12 @@
         <details>
             <summary>
                 <b>VOGOŠĆA</b>
-                | Heat: 325,876.783
-                | CO₂: 89.8221
-                | NOx: 0.162
-                | SO₂: 0.314
-                | PM2.5: 0.354
+                | Specific Heat Demand: 0.1 kWh/m²·yr
+                | Heat Demand: 324,336 MWh/yr
+                | CO₂: 89.385 kton/yr
+                | NOx: 0.161 kton/yr
+                | SO₂: 0.312 kton/yr
+                | PM2.5: 0.351 kton/yr
             </summary>
 
             <table
@@ -1541,11 +1686,12 @@
                 <thead>
                     <tr>
                         <th>Mjesna zajednica</th>
-                        <th>Heat</th>
-                        <th>CO₂</th>
-                        <th>NOx</th>
-                        <th>SO₂</th>
-                        <th>PM2.5</th>
+                        <th>Specific Heat Demand<br>[kWh/m²·yr]</th>
+                        <th>Heat Demand<br>[MWh/yr]</th>
+                        <th>CO₂<br>[kton/yr]</th>
+                        <th>NOx<br>[kton/yr]</th>
+                        <th>SO₂<br>[kton/yr]</th>
+                        <th>PM2.5<br>[kton/yr]</th>
                     </tr>
                 </thead>
 
@@ -1553,74 +1699,82 @@
         
                 <tr>
                     <td>Blagovac</td>
-                    <td>23,526.209</td>
-                    <td>4.5932</td>
-                    <td>0.0114</td>
-                    <td>0.0280</td>
-                    <td>0.0415</td>
+                    <td>0.1</td>
+                    <td>23,147.360</td>
+                    <td>4.5761</td>
+                    <td>0.0113</td>
+                    <td>0.0291</td>
+                    <td>0.0413</td>
                 </tr>
             
                 <tr>
                     <td>Gora</td>
-                    <td>4,800.631</td>
-                    <td>1.1138</td>
+                    <td>0.1</td>
+                    <td>4,735.960</td>
+                    <td>1.0944</td>
                     <td>0.0025</td>
-                    <td>0.0077</td>
-                    <td>0.0085</td>
+                    <td>0.0075</td>
+                    <td>0.0084</td>
                 </tr>
             
                 <tr>
                     <td>Hotonj</td>
-                    <td>64,381.922</td>
-                    <td>14.2074</td>
-                    <td>0.0316</td>
-                    <td>0.0716</td>
-                    <td>0.1011</td>
+                    <td>0.1</td>
+                    <td>64,344.790</td>
+                    <td>14.2637</td>
+                    <td>0.0315</td>
+                    <td>0.0709</td>
+                    <td>0.0998</td>
                 </tr>
             
                 <tr>
                     <td>Kobilja Glava</td>
-                    <td>30,448.347</td>
-                    <td>5.3391</td>
-                    <td>0.0141</td>
-                    <td>0.0289</td>
-                    <td>0.0549</td>
+                    <td>0.1</td>
+                    <td>29,251.590</td>
+                    <td>4.9727</td>
+                    <td>0.0134</td>
+                    <td>0.0273</td>
+                    <td>0.0532</td>
                 </tr>
             
                 <tr>
                     <td>Semizovac</td>
-                    <td>34,323.580</td>
-                    <td>7.9794</td>
-                    <td>0.0166</td>
-                    <td>0.0364</td>
-                    <td>0.0486</td>
+                    <td>0.1</td>
+                    <td>34,554.060</td>
+                    <td>8.0399</td>
+                    <td>0.0167</td>
+                    <td>0.0367</td>
+                    <td>0.0487</td>
                 </tr>
             
                 <tr>
                     <td>Svrake</td>
-                    <td>12,250.184</td>
-                    <td>2.1487</td>
-                    <td>0.0058</td>
-                    <td>0.0134</td>
-                    <td>0.0230</td>
+                    <td>0.1</td>
+                    <td>12,044.890</td>
+                    <td>2.0749</td>
+                    <td>0.0057</td>
+                    <td>0.0129</td>
+                    <td>0.0228</td>
                 </tr>
             
                 <tr>
                     <td>Vogošća I</td>
-                    <td>49,307.344</td>
-                    <td>14.6739</td>
-                    <td>0.0246</td>
-                    <td>0.0437</td>
-                    <td>0.0438</td>
+                    <td>0.1</td>
+                    <td>46,623.900</td>
+                    <td>13.6698</td>
+                    <td>0.0233</td>
+                    <td>0.0417</td>
+                    <td>0.0439</td>
                 </tr>
             
                 <tr>
                     <td>Vogošća II</td>
-                    <td>106,838.566</td>
-                    <td>39.7667</td>
-                    <td>0.0552</td>
-                    <td>0.0846</td>
-                    <td>0.0323</td>
+                    <td>0.1</td>
+                    <td>109,633.330</td>
+                    <td>40.6937</td>
+                    <td>0.0565</td>
+                    <td>0.0857</td>
+                    <td>0.0333</td>
                 </tr>
             
                 </tbody>
